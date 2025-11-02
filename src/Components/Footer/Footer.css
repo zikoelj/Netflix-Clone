@@ -32,7 +32,7 @@
     .footer-icons img{
         width: 25px;
     }
-    .footero ul{
+    .footer ul{
         grid-template-columns: auto auto;
         gap: 8px;
         font-size: 14px;
