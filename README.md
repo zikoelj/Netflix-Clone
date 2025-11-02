@@ -40,6 +40,21 @@ Une reproduction fidèle de l'interface Netflix construite avec React 19 et Java
 - **HTTP Client:** Fetch API
 - **Build Tool:** Vite
 
+### Détails des Routes
+
+#### `/` - Page d'Accueil
+- **Accès:** Public
+- **Description:** Page de présentation avec appel à l'action pour s'inscrire ou se connecter
+- **Composants:** Header, Hero section, Features, Footer
+
+#### `/login` - Page de Connexion
+- **Accès:** Public
+- **Description:** Formulaire d'authentification (login/signup)
+- **Fonctionnalités:**
+  - Connexion avec email/mot de passe
+  - Inscription de nouveaux utilisateurs
+  - Redirection vers `/` après connexion réussie
+
 ## 📦 Installation et Configuration
 
 ### Prérequis
