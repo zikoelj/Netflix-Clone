@@ -1,17 +1,73 @@
-# Netflix-Clone
-# React + Vite
+# Netflix Clone - Projet Frontend React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-19.0.0-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)
+![Firebase](https://img.shields.io/badge/Firebase-Auth%20%26%20Storage-orange)
+![TMDB](https://img.shields.io/badge/TMDB-API-green)
+![Netflix Clone](https://img.shields.io/badge/Netflix-Clone-red)
 
-Currently, two official plugins are available:
+Une reproduction fidèle de l'interface Netflix construite avec React 19 et JavaScript, avec système d'authentification Firebase et données des films provenant de l'API TMDB.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Fonctionnalités
 
-## React Compiler
+### 🔐 Authentification
+- **Inscription et connexion** avec email/mot de passe
+- **Gestion des profils utilisateurs**
+- **Persistance de session** avec Firebase Auth
+- **Protection des routes** privées
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🎬 Contenu et Navigation
+- **Page d'accueil** avec bannière principale dynamique
+- **Navigation par catégories** (Tendances, Populaires, Séries, Films)
+- **Carrousels interactifs** avec défilement horizontal
+- **Model de détails** avec bande-annonce et informations
+- **Design responsive** mobile-first
 
-## Expanding the ESLint configuration
+### 📱 Expérience Utilisateur
+- **Interface moderne** et intuitive
+- **Animations fluides** et transitions
+- **Loading states** et gestion des erreurs
+- **Optimisation des performances**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Stack Technique
+
+- **Frontend:** React 19, JavaScript (ES6+)
+- **Authentication:** Firebase Auth
+- **Storage:** Firebase Firestore
+- **API:** TMDB (The Movie Database)
+- **Routing:** React Router DOM
+- **Styling:** CSS
+- **HTTP Client:** Fetch API
+- **Build Tool:** Vite
+
+## 📦 Installation et Configuration
+
+### Prérequis
+- Node.js (version 18 ou supérieure)
+- npm, yarn ou pnpm
+- Compte Firebase et TMDB
+
+### 1. Cloner le projet
+```bash
+git clone https://github.com/zikoelj/Netflix-clone.git
+cd Netflix-clone
+```
+
+### 2. Installer les dépendances
+```bash
+npm install
+# ou
+yarn install
+# ou
+pnpm install
+```
+
+### 3. Démarrer l'application
+```bash
+npm run dev
+# ou
+yarn dev
+# ou
+pnpm dev
+```
+#### L'application sera accessible sur http://localhost:5173
